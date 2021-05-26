@@ -1,0 +1,4 @@
+{
+	"mongoURI": "mongodb+srv://hine113:crayon1@hientruong.jo0ln.mongodb.net/myrecipebook?retryWrites=true&w=majority",
+	"jwtSecret": "secret"
+}

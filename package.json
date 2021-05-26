@@ -1,0 +1,75 @@
+<<<<<<< HEAD
+{
+  "name": "twist",
+  "version": "1.0.0",
+  "description": "recipe book with your own twist",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hine1/twist.git"
+  },
+  "author": "Hien Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hine1/twist/issues"
+  },
+  "homepage": "https://github.com/hine1/twist#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "express-validator": "^6.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "slugify": "^1.5.1"
+  }
+}
+||||||| (empty tree)
+=======
+{
+  "name": "twist",
+  "version": "1.0.0",
+  "description": "recipe book with your own twist",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hine1/twist.git"
+  },
+  "author": "Hien Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hine1/twist/issues"
+  },
+  "homepage": "https://github.com/hine1/twist#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "express-validator": "^6.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "nodemailer": "^6.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "slugify": "^1.5.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0",
+    "nodemon": "^2.0.7"
+  }
+}
+>>>>>>> 58c4d89 (implement user authentication and authorization)
